@@ -1,0 +1,27 @@
+
+Chromatic CLI v7.5.0
+https://www.chromatic.com/docs/cli
+
+The CLI tried to run your build-storybook script, but the command failed. This indicates a problem with your Storybook. Here's what to do:
+
+- Check the Storybook build log printed below.
+- Run npm run build-storybook or yarn build-storybook yourself and make sure it outputs a valid Storybook by opening the generated index.html in your browser.
+- Review the build-storybook CLI options at https://storybook.js.org/docs/configurations/cli-options/#for-build-storybook
+
+Command failed with exit code 1: yarn run build-storybook --output-dir C:\Users\EARTHL~1\AppData\Local\Temp\chromatic--7024-fSUCKRobBVTL
+
+i Build command:
+yarn run build-storybook --output-dir C:\Users\EARTHL~1\AppData\Local\Temp\chromatic--7024-fSUCKRobBVTL
+
+i Runtime metadata:
+{
+  "nodePlatform": "win32",
+  "nodeVersion": "18.18.0",
+  "packageManager": "yarn"
+}
+
+i Storybook build output:
+D:\Education\YandexPracticum\YandexWorkshop-NKO\storybook-practice\taskbox\build-storybook.log
+
+'yarn' is not recognized as an internal or external command,
+operable program or batch file.
